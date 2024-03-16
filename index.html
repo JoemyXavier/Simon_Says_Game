@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
+	
+    <title>Simon Says</title>
+  </head>
+ <body>
+    <main>
+		<section id="info_loading">
+			<div class="info_content">
+				<h1>Loading</h1>
+        
+			</div>
+		</section>
+
+		<header>
+      <button id="start" class="start disable">Start</button>
+			
+		</header>
+		<section class="pad-container">
+      <button id="pad-red" class="box"></button>
+			<button id="pad-green" class="box"></button>
+      <button id="pad-blue" class="box"></button>
+			<button id="pad-yellow" class="box"></button>
+			
+			<h1 id="level">level 1</h1>
+			<h1 id ="score">highest : 0</h1>
+      
+		</section>
+		
+
+		<section id="info_overlay" class="hide">
+			<div class="info_content">
+				<h1 id="info_message">You Lose</h1>
+				<button id="info_button">try again</button>
+			</div>
+		</section>
+    </main>
+    <script src="./src/index3.js"></script>
+  </body>
+</html>
